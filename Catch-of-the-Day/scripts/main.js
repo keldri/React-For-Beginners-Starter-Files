@@ -1,7 +1,6 @@
 var React =require('react');
 var ReactDom = require('react-dom');
 
-
 var App = React.createClass({
 	render: function(){
 		return(
@@ -16,14 +15,6 @@ var App = React.createClass({
 	}
 })
 
-/*Header*/
-var Header = React.createClass ({
-	render :function(){
-		return(
-			<p>Header</p>
-		)
-	}
-});
 /*Order*/
 var Order = React.createClass ({
 	render :function(){
